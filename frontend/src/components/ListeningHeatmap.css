@@ -1,0 +1,51 @@
+.heatmap-card {
+  margin-top: 30px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heatmap-card h2 {
+  margin-bottom: 8px;
+}
+
+.heatmap-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.heatmap-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heatmap-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 40px;
+  align-items: center;
+  gap: 12px;
+}
+
+.heatmap-day {
+  font-weight: 600;
+}
+
+.heatmap-bar-bg {
+  height: 16px;
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.heatmap-bar {
+  height: 100%;
+  background: #1db954;
+  border-radius: 20px;
+}
+
+.heatmap-count {
+  text-align: right;
+  font-weight: bold;
+}

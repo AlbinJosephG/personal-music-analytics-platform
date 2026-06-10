@@ -1,0 +1,66 @@
+.share-section {
+  margin-top: 30px;
+}
+
+.share-section h2 {
+  margin-bottom: 20px;
+}
+
+.share-card {
+  width: 420px;
+  max-width: 100%;
+  background: linear-gradient(135deg, #191414, #1db954);
+  color: white;
+  border-radius: 28px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.share-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.share-card h1 {
+  font-size: 38px;
+  margin: 10px 0 24px;
+}
+
+.share-details {
+  display: grid;
+  gap: 14px;
+}
+
+.share-details div {
+  background: rgba(255, 255, 255, 0.14);
+  padding: 14px;
+  border-radius: 16px;
+}
+
+.share-details span {
+  display: block;
+  font-size: 13px;
+  opacity: 0.75;
+  margin-bottom: 6px;
+}
+
+.share-details strong {
+  font-size: 20px;
+}
+
+.download-btn {
+  margin-top: 16px;
+  padding: 12px 20px;
+  background: #181818;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background: #1db954;
+}

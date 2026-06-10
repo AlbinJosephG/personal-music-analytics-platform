@@ -1,0 +1,37 @@
+.progress-loader-card {
+  margin-top: 30px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-loader-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.progress-loader-header h3 {
+  margin: 0;
+}
+
+.progress-loader-header strong {
+  color: #1db954;
+  font-size: 24px;
+}
+
+.progress-bar-bg {
+  height: 14px;
+  background: #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #1db954;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}

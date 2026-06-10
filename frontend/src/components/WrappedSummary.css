@@ -1,0 +1,35 @@
+.wrapped-summary {
+  margin-top: 30px;
+  background: linear-gradient(135deg, #1db954, #191414);
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.wrapped-summary h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.summary-grid div {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 18px;
+  border-radius: 14px;
+}
+
+.summary-grid span {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.summary-grid strong {
+  font-size: 20px;
+}

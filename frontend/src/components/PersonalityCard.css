@@ -1,0 +1,21 @@
+.personality-card {
+  margin-top: 30px;
+  background: #181818;
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.personality-badge {
+  display: inline-block;
+  margin: 16px 0;
+  padding: 12px 20px;
+  background: #1db954;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.personality-card p {
+  opacity: 0.8;
+}
