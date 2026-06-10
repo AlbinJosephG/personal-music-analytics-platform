@@ -423,6 +423,63 @@ Open Wrapped Replay
 
 ---
 
+## 🛠 Tech Stack
+
+<br/>
+
+<div align="center">
+
+### Frontend
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react\&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square)
+![Framer Motion](https://img.shields.io/badge/Framer--Motion-0055FF?style=flat-square\&logo=framer)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square)
+![html2canvas](https://img.shields.io/badge/html2canvas-22C55E?style=flat-square)
+
+### Backend
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square\&logo=flask\&logoColor=white)
+![Requests](https://img.shields.io/badge/Requests-4B8BBE?style=flat-square)
+
+### Data Source
+
+![Last.fm API](https://img.shields.io/badge/Last.fm-API-D51007?style=flat-square\&logo=lastdotfm\&logoColor=white)
+
+### Development & Deployment
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square\&logo=npm\&logoColor=white)
+![Virtual Environment](https://img.shields.io/badge/Python-Venv-306998?style=flat-square)
+
+### Core Modules
+
+![Wrapped Engine](https://img.shields.io/badge/Wrapped-Engine-1DB954?style=flat-square)
+
+![Music Analytics](https://img.shields.io/badge/Music-Analytics-2563EB?style=flat-square)
+
+![Compatibility Engine](https://img.shields.io/badge/Compatibility-Engine-7C3AED?style=flat-square)
+
+![Recommendation Engine](https://img.shields.io/badge/Recommendation-Engine-D97706?style=flat-square)
+
+![Replay Story](https://img.shields.io/badge/Replay-Story-EC4899?style=flat-square)
+
+![Share Cards](https://img.shields.io/badge/Share-Cards-059669?style=flat-square)
+
+![Listening Heatmap](https://img.shields.io/badge/Listening-Heatmap-E11D48?style=flat-square)
+
+![Personality Detection](https://img.shields.io/badge/Music-Personality-9333EA?style=flat-square)
+
+</div>
+
+<br/>
+
+
+---
+
 ## 📂 Project Structure
 
 ```text
