@@ -48,27 +48,52 @@ A Spotify Wrapped inspired music intelligence platform that transforms Last.fm l
 - PNG Export using html2canvas
 
 ---
+# 🏗️ Architecture
 
-## 🏗️ Architecture
+<br/>
 
-Frontend (React)
-    |
-    v
-Analytics Dashboard
-    |
-    +--> Wrapped Replay
-    +--> Compatibility Engine
-    +--> Recommendation Engine
-    +--> Share Cards
-    |
-    v
-Flask Backend
-    |
-    +--> Last.fm API
-    +--> Analytics Services
-    +--> Similarity Engine
-    +--> Recommendation Logic
+```text
+╔════════════════════════════════════════════════════════════╗
+║                       USER LAYER                          ║
+║               Browser / Desktop / Mobile                  ║
+╚═══════════════════════╤════════════════════════════════════╝
+                        │
+                        ▼
+╔════════════════════════════════════════════════════════════╗
+║                    REACT FRONTEND                         ║
+║       Dashboard • Replay • Compatibility • Share         ║
+╚══════╤══════════════╤══════════════╤═══════════════════════╝
+       │              │              │
+       ▼              ▼              ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ Wrapped     │ │ Analytics   │ │ Compatibility│
+│ Replay      │ │ Dashboard   │ │ Engine      │
+└──────┬──────┘ └──────┬──────┘ └──────┬──────┘
+       │               │               │
+       └───────────────┼───────────────┘
+                       │
+                       ▼
+╔════════════════════════════════════════════════════════════╗
+║                     FLASK BACKEND                         ║
+║          API Layer • Data Processing • Analytics          ║
+╚══════╤══════════════╤══════════════╤═══════════════════════╝
+       │              │              │
+       ▼              ▼              ▼
+┌─────────────┐ ┌─────────────┐ ┌─────────────┐
+│ Music       │ │ Similarity  │ │ Recommendation│
+│ Analytics   │ │ Engine      │ │ Engine      │
+└──────┬──────┘ └──────┬──────┘ └──────┬──────┘
+       │               │               │
+       └───────────────┼───────────────┘
+                       │
+                       ▼
+╔════════════════════════════════════════════════════════════╗
+║                      LAST.FM API                          ║
+║     User Data • Artists • Tracks • Scrobbles • Tags       ║
+╚════════════════════════════════════════════════════════════╝
+```
 
+<br/>
 ---
 
 ## 🚀 Quick Start
@@ -158,6 +183,7 @@ music-wrapped-project/
 ├── backend/
 │   ├── app.py
 │   ├── services/
+│   ├── .env
 │   └── requirements.txt
 │
 ├── README.md
